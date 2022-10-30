@@ -1,0 +1,47 @@
+.navlinks li a:hover,
+.navlinks ul span:hover,
+.footer-links a:hover,
+.copyright p a:hover,
+.l-s .lh:hover,
+.u-c ul li a:hover,
+.change-pssd span:hover,
+.user-h-driv-o .profile-btn:hover {
+  color: #000;
+}
+.google-login a:hover {
+  color: #000;
+}
+.c-btn:hover {
+  color: #009184;
+}
+.u-c ul li a img:hover,
+.user-h-driv-o .profile-btn img:hover {
+  filter: grayscale(100%);
+}
+.navlinks li:hover .submenu {
+  display: block;
+}
+
+.dwn a:hover {
+  background-color: #000;
+}
+.popup_close:hover {
+  opacity: 0.5;
+}
+@keyframes upWards {
+  from {
+    margin-bottom: -550px;
+    opacity: 0;
+  }
+  to {
+    margin-bottom: 0;
+  }
+}
+@keyframes leftin {
+  from {
+    margin-left: -600px;
+  }
+  t0 {
+    margin-left: 0;
+  }
+}

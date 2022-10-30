@@ -1,0 +1,210 @@
+.lf-sf h2 {
+  font-weight: 300;
+  text-align: center;
+}
+
+.lf-sfm p {
+  position: relative;
+}
+
+.lf-sf a,
+.lf-sf a:link,
+.lf-sf a:visited,
+.lf-sf a:active {
+  color: #3ca9e2;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.lf-sf a:focus,
+.lf-sf a:hover,
+.lf-sf a:link:focus,
+.lf-sf a:link:hover,
+.lf-sf a:visited:focus,
+.lf-sf a:visited:hover,
+.lf-sf a:active:focus,
+.lf-sf a:active:hover {
+  color: #329dd5;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.common-css-lg-lo {
+  background-color: #fff;
+  width: 35%;
+  margin: 30px auto;
+  text-align: center;
+  padding: 20px 0 0 0;
+  border-radius: 4px;
+  box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
+}
+
+.lf-sf {
+  padding: 15px 60px 10px;
+}
+.lf-sf input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  outline: none;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.lf-sf input[type="text"],
+.lf-sf input[type="password"],
+.lf-sf input[type="email"] {
+  width: 100%;
+  padding: 0 0 0 10px;
+  margin-bottom: 15px;
+  color: #8a8b8e;
+  border: 1px solid #c2c0ca;
+  font-style: normal;
+  font-size: 16px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: relative;
+  display: inline-block;
+  background: none;
+}
+.lf-sf input[type="text"]:focus,
+.lf-sf input[type="email"]:focus {
+  border-color: #3ca9e2;
+}
+.lf-sf input[type="text"]:focus:invalid,
+.lf-sf input[type="email"]:focus:invalid {
+  color: #cc1e2b;
+  border-color: #cc1e2b;
+}
+/*
+.lf-sf input[type="text"]:valid ~ .validation,
+.lf-sf input[type="email"]:valid ~ .validation {
+  display: block;
+  border-color: #0c0;
+}
+.lf-sf input[type="text"]:valid ~ .validation span,
+.lf-sf input[type="email"]:valid ~ .validation span {
+  background: #0c0;
+  position: absolute;
+  border-radius: 6px;
+}
+.lf-sf input[type="text"]:valid ~ .validation span:first-child,
+.lf-sf input[type="email"]:valid ~ .validation span:first-child {
+  top: 30px;
+  left: 14px;
+  width: 20px;
+  height: 3px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.lf-sf input[type="text"]:valid ~ .validation span:last-child,
+.lf-sf input[type="email"]:valid ~ .validation span:last-child {
+  top: 35px;
+  left: 8px;
+  width: 11px;
+  height: 3px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.validation {
+  display: none;
+  position: absolute;
+  content: " ";
+  height: 60px;
+  width: 30px;
+  right: 15px;
+  top: 0px;
+}
+*/
+.lf-sf input[type="submit"] {
+  border: none;
+  display: block;
+  background-color: #3ca9e2;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  font-size: 15px;
+
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+.lf-sf input[type="submit"]:hover {
+  background-color: #329dd5;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+#create-account-wrap {
+  background-color: #eeedf1;
+  color: #8a8b8e;
+  font-size: 14px;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 0 0 4px 4px;
+}
+.log-msg,
+.s-msg {
+  text-transform: capitalize;
+  font-size: 15px;
+  padding: 20px;
+}
+.log-msg {
+  color: red;
+}
+.s-msg {
+  color: green;
+}
+.common-css-lg-lo h6 {
+  font-size: 0.8rem;
+  margin: 10px 0 50px;
+  color: green;
+}
+.common-css-lg-lo h2 {
+  font-size: 1rem !important;
+}
+/* password change page */
+.common-css-lg-lo #Oldpassword,
+.common-css-lg-lo #Newpassword,
+.common-css-lg-lo #submit {
+  height: 30px;
+  line-height: 40px;
+}
+.common-css-lg-lo #submit {
+  font-size: 14px !important;
+  line-height: 10px !important;
+}
+.close-p {
+  display: inline-block;
+  width: 100%;
+}
+.c-btn {
+  cursor: pointer;
+  float: right;
+  padding: 0 35px;
+}
+.or {
+  font-size: 1.2rem;
+}
+.google-login img {
+  width: 13px;
+}
+.google-login a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  border: 1px solid;
+  padding: 7px 70px;
+  background-color: #eb4336;
+  color: #fff;
+}
+
+.google-login {
+  margin: 0 0 15px;
+}
