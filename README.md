@@ -6,7 +6,7 @@
 <p>Home page </p>
 <img src="https://i.ibb.co/1d8gwcp/1.png" alt="img">
 
-<h1>Sing In</h1>
+<h1>SingUp</h1>
 <img src="https://i.ibb.co/ZJ75YhW/3.png" alt="img">
 
 <h1>User Profile</h1>
