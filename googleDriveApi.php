@@ -6,9 +6,9 @@ require_once 'vendor/autoload.php';
 try{
 $client = new Google_Client();
 // Get your credentials from the console
-$client->setClientId('386006738001-jf5rl50up88h1up9jtn7s2qn57krp017.apps.googleusercontent.com');
-$client->setClientSecret('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');
-$client->setRedirectUri('http://localhost/ScreenshotMachine/userprofile.php');
+$client->setClientId('Enter user id here');
+$client->setClientSecret('Secret id here');
+$client->setRedirectUri('Redirect link');
 $client->setScopes(array('https://www.googleapis.com/auth/drive.file'));
 
  
