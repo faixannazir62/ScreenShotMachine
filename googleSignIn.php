@@ -4,6 +4,7 @@ require_once 'vendor/autoload.php';
     error_reporting(E_ERROR|E_PARSE);
 
 // init configuration
+//First create your own Google+ API Account
 $clientID = 'Enter Api id here';
 $clientSecret = 'Secret key here';
 $redirectUri = 'http://localhost/ScreenshotMachine/loginpage.php';
