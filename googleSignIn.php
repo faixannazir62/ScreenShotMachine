@@ -4,8 +4,8 @@ require_once 'vendor/autoload.php';
     error_reporting(E_ERROR|E_PARSE);
 
 // init configuration
-$clientID = '386006738001-jf5rl50up88h1up9jtn7s2qn57krp017.apps.googleusercontent.com';
-$clientSecret = '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';
+$clientID = 'Enter Api id here';
+$clientSecret = 'Secret key here';
 $redirectUri = 'http://localhost/ScreenshotMachine/loginpage.php';
 $googleDrive = 'https://www.googleapis.com/auth/drive';
 
