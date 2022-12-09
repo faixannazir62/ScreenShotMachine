@@ -1,7 +1,8 @@
 <?php
 include('ScreenshotMachine.php');
-$customer_key = "d7e454";
-$secret_phrase = "12345"; //leave secret phrase empty, if not needed
+// Create account on SCREENShotMachine.com and generate api key from there
+$customer_key = "Api key";
+$secret_phrase = ""; //leave secret phrase empty, if not needed
 
 $machine = new ScreenshotMachine($customer_key, $secret_phrase);
 
